@@ -1,0 +1,17 @@
+PS1='\[\e[1;33m\][ _WIN_ \w ]\[\e[1;34m\] \u \n$ \[\033[0m\]'
+
+export GREP_COLOR='1;32'
+
+alias ls="ls --color=auto"
+alias ll="ls -gGh --color=auto"
+alias grep="grep --color=auto"
+alias tmux="tmux -2"
+alias vim="vim -X"
+alias sim2="ssh -Y abaquitae@10.191.23.26"
+alias sim3="ssh -Y abaquitae@10.191.23.24"
+alias sim4="ssh -Y abaquitae@10.191.23.23"
+alias sim1="ssh -Y abaquitae@10.191.23.25"
+alias pserver="ssh -Y ko740877@10.191.23.47"
+alias reload="source ~/.bashrc"
+alias flist="find ."
+alias ..="cd .."
